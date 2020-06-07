@@ -70,7 +70,7 @@ static propTypes = {
 static defaultProps = {
     vNumLeftLimit: 30,
     vNumRightLimit: 30,
-    vMidWidth: 4,
+    vMidWidth: 1,
     midHandlerClassName: '',
     onResizeStart: (): void => {},
     onResizeStop: (): void => {}

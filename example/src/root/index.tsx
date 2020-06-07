@@ -3,7 +3,6 @@ import * as PropTypes from 'prop-types'
 import { Route, Switch, Redirect, withRouter, NavLink } from 'react-router-dom'
 
 import Master from '../master'
-import Table from '../table'
 import HResizeBox from '../hresize'
 
 import './index.scss'
@@ -18,16 +17,12 @@ const Root = (props): React.ReactElement => {
                     <NavLink to="/home" activeClassName="active">首页</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/table" activeClassName="active">表格</NavLink>
-                </li>
-                <li>
                     <NavLink to="/hresize" activeClassName="active">resize-box</NavLink>
                 </li>
             </ul>
             <div className="main-content">
                 <Switch>
                     <Route path="/home" component={Master} />
-                    <Route path="/table" component={Table} />
                     <Route path="/hresize" component={HResizeBox} />
                     <Route path={url} exact render={(): React.ReactNode => <Redirect to="/hresize" />} />
                 </Switch>

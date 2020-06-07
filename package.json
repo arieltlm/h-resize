@@ -1,6 +1,6 @@
 {
   "name": "h-resize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "横向resize组件",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/arieltlm/h-resize"
   },
   "author": "tlm",
   "license": "MIT",

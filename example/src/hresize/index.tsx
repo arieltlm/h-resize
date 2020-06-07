@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import { HResize } from '../../../src'
+import HResize from '../../../src'
 import './index.scss'
 
 const leftDiv = (
